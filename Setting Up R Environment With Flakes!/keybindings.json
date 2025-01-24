@@ -1,0 +1,24 @@
+// Place your key bindings in this file to override the defaults
+[
+    {
+        "key": "alt+-",
+        "command": "type",
+        "args": { "text": " <- " },
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+i",
+        "command": "type",
+        "args": { "text": "```{python}\n\n```\n\n" },
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+m",
+        "command": "type",
+        "args": { "text": " |> " },
+        "when": "editorTextFocus"
+    }
+    
+    
+]
+
